@@ -51,10 +51,58 @@
             ".delete()"
         ]
     },
+    ".create": {
+        "prefix": ".create",
+        "body": [
+            ".create()"
+        ]
+    },
+    ".add": {
+        "prefix": ".add",
+        "body": [
+            ".add()"
+        ]
+    },
+    ".remove": {
+        "prefix": ".remove",
+        "body": [
+            ".remove()"
+        ]
+    },
+    ".clear": {
+        "prefix": ".clear",
+        "body": [
+            ".clear()"
+        ]
+    },
+    ".save": {
+        "prefix": ".save",
+        "body": [
+            ".save()"
+        ]
+    },
+    ".reverse": {
+        "prefix": ".reverse",
+        "body": [
+            ".reverse()"
+        ]
+    },
+    ".all": {
+        "prefix": ".all",
+        "body": [
+            ".all()"
+        ]
+    },
+    ".distinct": {
+        "prefix": ".distinct",
+        "body": [
+            ".distinct()"
+        ]
+    },
     ".update": {
         "prefix": ".update",
         "body": [
-            ".update"
+            ".update()"
         ]
     },
     "Model": {
@@ -109,18 +157,6 @@
         "prefix": "models.IntegerField",
         "body": [
             "models.IntegerField()"
-        ]
-    },
-    "Entry.objects": {
-        "prefix": "Entry.objects",
-        "body": [
-            "Entry.objects"
-        ]
-    },
-    "Blog.objects": {
-        "prefix": "Blog.objects",
-        "body": [
-            "Blog.objects"
         ]
     }
 }

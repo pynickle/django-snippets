@@ -1,14 +1,8 @@
 {
-    "models": {
+    "db": {
         "prefix": "from django.db import",
         "body": [
             "from django.db import"
-        ]
-    },
-    "HttpResponse": {
-        "prefix": "from django.http import",
-        "body": [
-            "from django.http import"
         ]
     },
     "shortcuts": {
@@ -17,16 +11,10 @@
             "from django.shortcuts import"
         ]
     },
-    "path": {
+    "urls": {
         "prefix": "from django.urls import",
         "body": [
             "from django.urls import"
-        ]
-    },
-    "blog.models": {
-        "prefix": "from blog.models import",
-        "body": [
-            "from blog.models import ${1:module}"
         ]
     },
     "views": {
@@ -35,10 +23,34 @@
             "from django.views import"
         ]
     },
-    "Http404": {
+    "http": {
         "prefix": "from django.http import",
         "body": [
             "from django.http import"
+        ]
+    },
+    "template": {
+        "prefix": "from django.template import",
+        "body": [
+            "from django.template import"
+        ]
+    },
+    "core": {
+        "prefix": "from django.core import",
+        "body": [
+            "from django.core import"
+        ]
+    },
+    "contrib": {
+        "prefix": "from django.contrib import",
+        "body": [
+            "from django.contrib import"
+        ]
+    },
+    "dispatch": {
+        "prefix": "from dispatch import",
+        "body": [
+            "from django.dispatch import"
         ]
     }
 }
