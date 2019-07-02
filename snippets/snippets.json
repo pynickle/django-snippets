@@ -15,6 +15,48 @@
             ".objects"
         ]
     },
+    ".get": {
+        "prefix": ".get",
+        "body": [
+            ".get()"
+        ]
+    },
+    ".filter": {
+        "prefix": ".filter",
+        "body": [
+            ".filter()"
+        ]
+    },
+    ".exclude": {
+        "prefix": ".exclude",
+        "body": [
+            ".exclude()"
+        ]
+    },
+    ".annotate": {
+        "prefix": ".annotate",
+        "body": [
+            ".annotate()"
+        ]
+    },
+    ".order_by": {
+        "prefix": ".order_by",
+        "body": [
+            ".order_by()"
+        ]
+    },
+    ".delete": {
+        "prefix": ".delete",
+        "body": [
+            ".delete()"
+        ]
+    },
+    ".update": {
+        "prefix": ".update",
+        "body": [
+            ".update"
+        ]
+    },
     "Model": {
         "prefix": "models.Model",
         "body": [
