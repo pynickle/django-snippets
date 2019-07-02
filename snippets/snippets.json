@@ -9,10 +9,10 @@
             "        return $2"
         ]
     },
-    "Category.objects": {
-        "prefix": "Category.objects",
+    ".objects": {
+        "prefix": ".objects",
         "body": [
-            "Category.objects"
+            ".objects"
         ]
     },
     "Model": {

@@ -11,7 +11,7 @@
             "from django.http import"
         ]
     },
-    "render": {
+    "shortcuts": {
         "prefix": "from django.shortcuts import",
         "body": [
             "from django.shortcuts import"
@@ -27,6 +27,12 @@
         "prefix": "from blog.models import",
         "body": [
             "from blog.models import ${1:module}"
+        ]
+    },
+    "views": {
+        "prefix": "from django.views import",
+        "body": [
+            "from django.views import"
         ]
     },
     "Http404": {
