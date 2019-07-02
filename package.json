@@ -1,0 +1,23 @@
+{
+    "name": "django-snippets",
+    "displayName": "django-snippets",
+    "description": "provide useful django snippets",
+    "publisher": "pynickle",
+    "author": "nick",
+    "version": "0.0.1",
+    "repository": "https://github.com/pynickle/django-snippets",
+    "engines": {
+        "vscode": "^1.35.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}

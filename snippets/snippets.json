@@ -1,0 +1,80 @@
+{
+    "models": {
+        "prefix": "from django.db import models",
+        "body": [
+            "from django.db import models"
+        ]
+    },
+    "blog.models": {
+        "prefix": "from blog.models import",
+        "body": [
+            "from blog.models import ${1:module}"
+        ]
+    },
+    "Category.objects": {
+        "prefix": "Category.objects",
+        "body": [
+            "Category.objects"
+        ]
+    },
+    "Model": {
+        "prefix": "models.Model",
+        "body": [
+            "models.Model"
+        ]
+    },
+    "CharField": {
+        "prefix": "models.CharField",
+        "body": [
+            "models.CharField()"
+        ]
+    },
+    "TextField": {
+        "prefix": "models.TextField",
+        "body": [
+            "models.TextField()"
+        ]
+    },
+    "EmailField": {
+        "prefix": "models.EmailField",
+        "body": [
+            "models.EmailField()"
+        ]
+    },
+    "ForeignKey": {
+        "prefix": "models.ForeignKey",
+        "body": [
+            "models.ForeignKey()"
+        ]
+    },
+    "DateField": {
+        "prefix": "models.DateField",
+        "body": [
+            "models.DateField()"
+        ]
+    },
+    "MantToManyField": {
+        "prefix": "models.MantToManyField",
+        "body": [
+            "models.MantToManyField()"
+        ]
+    },
+    "IntegerField": {
+        "prefix": "models.IntegerField",
+        "body": [
+            "models.IntegerField()"
+        ]
+    },
+    "Entry.objects": {
+        "prefix": "Entry.objects",
+        "body": [
+            "Entry.objects"
+        ]
+    },
+    "Blog.objects": {
+        "prefix": "Blog.objects",
+        "body": [
+            "Blog.objects"
+        ]
+    }
+}
