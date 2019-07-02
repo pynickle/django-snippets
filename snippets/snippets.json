@@ -1,14 +1,12 @@
 {
-    "models": {
-        "prefix": "from django.db import models",
+    "models.Model": {
+        "prefix": "class",
         "body": [
-            "from django.db import models"
-        ]
-    },
-    "blog.models": {
-        "prefix": "from blog.models import",
-        "body": [
-            "from blog.models import ${1:module}"
+            "class ${ClassName}(models.Model):",
+            "    $1",
+            "",
+            "    def __str__(self):",
+            "        return $2"
         ]
     },
     "Category.objects": {
@@ -51,6 +49,12 @@
         "prefix": "models.DateField",
         "body": [
             "models.DateField()"
+        ]
+    },
+    "OneToOneField": {
+        "prefix": "models.OoneToOneField",
+        "body": [
+            "models.OneToOneField()"
         ]
     },
     "MantToManyField": {

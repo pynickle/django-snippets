@@ -1,0 +1,38 @@
+{
+    "models": {
+        "prefix": "from django.db import",
+        "body": [
+            "from django.db import"
+        ]
+    },
+    "HttpResponse": {
+        "prefix": "from django.http import",
+        "body": [
+            "from django.http import"
+        ]
+    },
+    "render": {
+        "prefix": "from django.shortcuts import",
+        "body": [
+            "from django.shortcuts import"
+        ]
+    },
+    "path": {
+        "prefix": "from django.urls import",
+        "body": [
+            "from django.urls import"
+        ]
+    },
+    "blog.models": {
+        "prefix": "from blog.models import",
+        "body": [
+            "from blog.models import ${1:module}"
+        ]
+    },
+    "Http404": {
+        "prefix": "from django.http import",
+        "body": [
+            "from django.http import"
+        ]
+    }
+}
