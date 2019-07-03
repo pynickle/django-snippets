@@ -105,6 +105,18 @@
             ".update()"
         ]
     },
+    ".get_queryset": {
+        "prefix": ".get_queryset",
+        "body": [
+            ".get_queryset()"
+        ]
+    },
+    ".get_object": {
+        "prefix": ".get_object",
+        "body": [
+            ".get_object()"
+        ]
+    },
     "Model": {
         "prefix": "models.Model",
         "body": [
